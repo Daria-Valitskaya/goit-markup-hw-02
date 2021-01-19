@@ -78,7 +78,7 @@ header .mail-link:focus {
 }
 
 .navigation,
-.portfolio-button-list,
+.portfolio-button,
 .order-button {
   cursor: pointer;
 }
