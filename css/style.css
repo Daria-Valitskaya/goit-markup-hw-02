@@ -4,6 +4,12 @@
   --title-color: #212121;
   --focus-color: #2196f3;
   --text-color: #757575;
+  --dark-background-color: #2f303a;
+  --button-text-color: #ffffff;
+  --button-backgroung-color: #f5f4fa;
+  --logo-second-part: #000000;
+  --order-button-color: #188ce8;
+  --button-alfa-text: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -15,6 +21,9 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
 /*=======Navigations=======*/
 .logo {
   font-family: var(--logo-font);
@@ -22,11 +31,15 @@ a {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-second-part);
 }
 
-.logo .logo-first-part {
+.logo-first-part {
   color: var(--focus-color);
+}
+.logo-footer {
+  font-family: var(--logo-font);
+  color: var(--button-text-color);
 }
 
 .navigation-link {
@@ -64,25 +77,40 @@ header .mail-link:focus {
   color: var(--focus-color);
 }
 
+.navigation,
+.portfolio-button-list,
+.order-button {
+  cursor: pointer;
+}
+
+.navigation-item .navigation-link.current {
+  color: var(--focus-color);
+}
 /*=======FOOTER=======*/
 
 .address-map {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--button-text-color);
 }
-.footer a {
+.contacts-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--button-alfa-text);
 }
 
 /*=======studio======*/
 /*=======hero=======*/
+
+.hero,
+.footer {
+  background: var(--dark-background-color);
+}
 
 .main-title {
   font-weight: 900;
@@ -91,7 +119,7 @@ header .mail-link:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--button-text-color);
 }
 
 .order-button {
@@ -102,7 +130,7 @@ header .mail-link:focus {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--button-text-color);
   background: var(--focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -110,7 +138,7 @@ header .mail-link:focus {
 
 .order-button:hover,
 .order-button:focus {
-  background: #188ce8;
+  background: var(--order-button-color);
 }
 
 /*=======features=======*/
@@ -173,13 +201,13 @@ header .mail-link:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background: #f5f4fa;
+  background: var(--button-backgroung-color);
   border-radius: 4px;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: #ffffff;
+  color: var(--button-text-color);
   background: var(--focus-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
