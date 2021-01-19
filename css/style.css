@@ -81,6 +81,7 @@ header .mail-link:focus {
 .portfolio-button,
 .order-button {
   cursor: pointer;
+  border: none;
 }
 
 .navigation-item .navigation-link.current {
