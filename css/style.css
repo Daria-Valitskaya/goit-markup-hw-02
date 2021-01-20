@@ -15,6 +15,10 @@
 body {
   font-family: var(--text-font);
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.143;
 }
 
 a {
@@ -30,7 +34,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
-  letter-spacing: 0.03em;
   color: var(--logo-second-part);
 }
 
@@ -43,9 +46,6 @@ ul {
 }
 
 .navigation-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -55,17 +55,11 @@ ul {
 }
 
 .mail-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
 .tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
@@ -92,16 +86,12 @@ header .mail-link:focus {
 .address-map {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
   color: var(--button-text-color);
 }
 .contacts-footer {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
   color: var(--button-alfa-text);
 }
 
@@ -146,18 +136,13 @@ header .mail-link:focus {
 
 .features-subtitle {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
 }
 
 .features-description {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
 }
 
 /*=======about us========*/
@@ -168,18 +153,15 @@ header .mail-link:focus {
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
 /*========our team=======*/
 
 .team-name {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
@@ -188,7 +170,6 @@ header .mail-link:focus {
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*======end studio=====*/
@@ -196,11 +177,9 @@ header .mail-link:focus {
 /*======portfolio======*/
 /*======nav buttons======*/
 .portfolio-button {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--button-backgroung-color);
   border-radius: 4px;
@@ -228,6 +207,5 @@ header .mail-link:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
