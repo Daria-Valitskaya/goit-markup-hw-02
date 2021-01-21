@@ -37,12 +37,16 @@ ul {
   color: var(--logo-second-part);
 }
 
-.logo-first-part {
-  color: var(--focus-color);
-}
 .logo-footer {
   font-family: var(--logo-font);
   color: var(--button-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo-first-part {
+  color: var(--focus-color);
 }
 
 .navigation-link {
@@ -64,10 +68,10 @@ ul {
   color: var(--text-color);
 }
 
-header .tel-link:hover,
-header .tel-link:focus,
-header .mail-link:hover,
-header .mail-link:focus {
+.tel-link:hover,
+.tel-link:focus,
+.mail-link:hover,
+.mail-link:focus {
   color: var(--focus-color);
 }
 
